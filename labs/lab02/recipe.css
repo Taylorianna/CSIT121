@@ -1,0 +1,22 @@
+body {
+    background-color: aqua;
+    margin: 10%;
+}
+h1 {
+    color: black;
+    font-family: Verdana;
+    font-size: 300%;
+}
+
+h2 {
+    text-transform: capitalize;
+    font-size: 180%;
+}
+
+h3 {
+    font-size: 180%;
+}
+
+ul {
+    background-color: aliceblue;
+}
