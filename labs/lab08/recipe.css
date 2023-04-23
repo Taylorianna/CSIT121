@@ -1,0 +1,234 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: aqua;
+    margin: 0;
+}
+
+h1 {
+    color: black;
+    font-family: Verdana;
+    font-size: 300%;
+}
+
+h2 {
+    text-transform: capitalize;
+    font-size: 180%;
+}
+
+h3 {
+    font-size: 180%;
+}
+
+ul {
+    display: inline;
+    list-style: circle;
+
+}
+
+#styledimg {
+    background-image: url(images/chickenAlfredoTwo.jpeg);
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 400px;
+ }
+.container{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    justify-content: center;
+    
+}
+
+.ingredients{
+     width: 40%;
+    float: left;
+    
+}
+.instructions{
+     width: 40%;
+    float: right;
+   
+} 
+.link-01{
+    color: blue;
+    text-decoration: none;
+}
+.link-01:hover{
+    color: red;
+    text-decoration: underline;
+}
+.footer{
+    justify-content: center;
+    padding: 50px;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+
+.vl {
+    border-left: 6px solid black;
+    height: 750px;
+    position: absolute;
+    left: 53%;
+    margin-left: -3px;
+    top: 10;
+  }
+
+  .space {
+    display: none;
+  }
+
+
+  table {
+    border-collapse: collapse;
+    width: 500px;
+    border-spacing:0;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  th {
+    background-color:black;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  td:first-child {
+    background-color: aqua; 
+    width: 250px;
+  }
+  td:last-child {
+    text-align: right;
+  }
+  .recipe-container {
+    border: 1px solid black;
+    padding: 20px;
+    margin:20px;
+    width: 550px;
+    
+  }
+  h2{
+    display:table-cell;
+  }
+
+
+
+  /*Mobile responsiveness*/
+
+  @media only screen and (max-width: 768px) { 
+
+    *{
+        margin: 0%;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .vl {
+        display: none;
+    }
+
+    .ingredients{
+        width: 100%;
+       float: left;
+       
+   }
+   .instructions{
+        width: 100%;
+       float: left;
+      
+   } 
+   .space {
+    display: inline;
+   }
+
+   
+   @media only screen and (max-width: 400px) { 
+
+    *{
+        margin: 0%;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .vl {
+        display: none;
+    }
+
+    .ingredients{
+        width: 100%;
+       float: left;
+       
+   }
+   .instructions{
+        width: 100%;
+       float: left;
+      
+   } 
+   .space {
+    display: inline;
+   }
+    
+    }
+
+}
+
+/* FORM */
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;
+  border: 1px solid black; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=email], select, textarea {
+  width: 100%; 
+  padding: 12px;
+  border: 1px solid black; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.containerform {
+  border-radius: 15px;
+  background-color: #f2f2f2;
+  padding: 20px;
+
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.containerformform{
+  width: 40%;
+  margin: 0 auto;
+  overflow: hidden;
+  justify-content: center;
+}
